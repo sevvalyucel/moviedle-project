@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="850.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.moviedle1.Controller">
+   <children>
+      <TextField fx:id="textfield" layoutX="153.0" layoutY="103.0" prefHeight="26.0" prefWidth="414.0" promptText="Please enter your guess..." />
+      <Label layoutX="229.0" layoutY="36.0" prefHeight="35.0" prefWidth="390.0" text="Welcome to the movie guess game!" textFill="#01024e">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <effect>
+            <Glow />
+         </effect>
+      </Label>
+      <Button layoutX="591.0" layoutY="95.0" mnemonicParsing="false" onAction="#buttonSetOnAction" prefHeight="42.0" prefWidth="100.0" text="Guess" />
+      <HBox fx:id="hbox1" layoutX="21.0" layoutY="158.0" prefHeight="87.0" prefWidth="804.0">
+         <children>
+            <Label fx:id="lbl1_1" alignment="CENTER" prefHeight="87.0" prefWidth="135.0">
+               <font>
+                  <Font size="18.0" />
+               </font></Label>
+            <Label fx:id="lbl1_2" alignment="CENTER" prefHeight="87.0" prefWidth="132.0">
+               <font>
+                  <Font size="18.0" />
+               </font></Label>
+            <Label fx:id="lbl1_3" alignment="CENTER" prefHeight="87.0" prefWidth="135.0">
+               <font>
+                  <Font size="18.0" />
+               </font></Label>
+            <Label fx:id="lbl1_4" alignment="CENTER" prefHeight="87.0" prefWidth="135.0">
+               <font>
+                  <Font size="18.0" />
+               </font></Label>
+            <Label fx:id="lbl1_5" alignment="CENTER" prefHeight="87.0" prefWidth="135.0">
+               <font>
+                  <Font size="18.0" />
+               </font></Label>
+            <Label fx:id="lbl1_6" alignment="CENTER" prefHeight="87.0" prefWidth="135.0">
+               <font>
+                  <Font size="18.0" />
+               </font></Label>
+         </children>
+      </HBox>
+      <HBox fx:id="hbox2" layoutX="21.0" layoutY="245.0" prefHeight="87.0" prefWidth="804.0">
+         <children>
+            <Label fx:id="lbl2_1" alignment="CENTER" prefHeight="87.0" prefWidth="135.0">
+               <font>
+                  <Font size="18.0" />
+               </font></Label>
+            <Label fx:id="lbl2_2" alignment="CENTER" prefHeight="87.0" prefWidth="135.0">
+               <font>
+                  <Font size="18.0" />
+               </font></Label>
+            <Label fx:id="lbl2_3" alignment="CENTER" prefHeight="87.0" prefWidth="135.0">
+               <font>
+                  <Font size="18.0" />
+               </font></Label>
+            <Label fx:id="lbl2_4" alignment="CENTER" prefHeight="87.0" prefWidth="135.0">
+               <font>
+                  <Font size="18.0" />
+               </font></Label>
+            <Label fx:id="lbl2_5" alignment="CENTER" prefHeight="87.0" prefWidth="135.0">
+               <font>
+                  <Font size="18.0" />
+               </font></Label>
+            <Label fx:id="lbl2_6" alignment="CENTER" prefHeight="87.0" prefWidth="135.0">
+               <font>
+                  <Font size="18.0" />
+               </font></Label>
+         </children>
+      </HBox>
+      <HBox fx:id="hbox3" layoutX="21.0" layoutY="332.0" prefHeight="87.0" prefWidth="804.0">
+         <children>
+            <Label fx:id="lbl3_1" alignment="CENTER" prefHeight="87.0" prefWidth="135.0">
+               <font>
+                  <Font size="18.0" />
+               </font></Label>
+            <Label fx:id="lbl3_2" alignment="CENTER" prefHeight="87.0" prefWidth="135.0">
+               <font>
+                  <Font size="18.0" />
+               </font></Label>
+            <Label fx:id="lbl3_3" alignment="CENTER" prefHeight="87.0" prefWidth="135.0">
+               <font>
+                  <Font size="18.0" />
+               </font></Label>
+            <Label fx:id="lbl3_4" alignment="CENTER" prefHeight="87.0" prefWidth="135.0">
+               <font>
+                  <Font size="18.0" />
+               </font></Label>
+            <Label fx:id="lbl3_5" alignment="CENTER" prefHeight="87.0" prefWidth="135.0">
+               <font>
+                  <Font size="18.0" />
+               </font></Label>
+            <Label fx:id="lbl3_6" alignment="CENTER" prefHeight="87.0" prefWidth="135.0">
+               <font>
+                  <Font size="18.0" />
+               </font></Label>
+         </children>
+      </HBox>
+      <HBox fx:id="hbox4" layoutX="21.0" layoutY="419.0" prefHeight="87.0" prefWidth="804.0">
+         <children>
+            <Label fx:id="lbl4_1" alignment="CENTER" prefHeight="87.0" prefWidth="135.0">
+               <font>
+                  <Font size="18.0" />
+               </font></Label>
+            <Label fx:id="lbl4_2" alignment="CENTER" prefHeight="87.0" prefWidth="135.0">
+               <font>
+                  <Font size="18.0" />
+               </font></Label>
+            <Label fx:id="lbl4_3" alignment="CENTER" prefHeight="87.0" prefWidth="135.0">
+               <font>
+                  <Font size="18.0" />
+               </font></Label>
+            <Label fx:id="lbl4_4" alignment="CENTER" prefHeight="87.0" prefWidth="135.0">
+               <font>
+                  <Font size="18.0" />
+               </font></Label>
+            <Label fx:id="lbl4_5" alignment="CENTER" prefHeight="87.0" prefWidth="135.0">
+               <font>
+                  <Font size="18.0" />
+               </font></Label>
+            <Label fx:id="lbl4_6" alignment="CENTER" prefHeight="87.0" prefWidth="135.0">
+               <font>
+                  <Font size="18.0" />
+               </font></Label>
+         </children>
+      </HBox>
+      <HBox fx:id="hbox5" layoutX="22.0" layoutY="506.0" prefHeight="87.0" prefWidth="804.0">
+         <children>
+            <Label fx:id="lbl5_1" alignment="CENTER" prefHeight="87.0" prefWidth="135.0">
+               <font>
+                  <Font size="18.0" />
+               </font></Label>
+            <Label fx:id="lbl5_2" alignment="CENTER" prefHeight="87.0" prefWidth="135.0">
+               <font>
+                  <Font size="18.0" />
+               </font></Label>
+            <Label fx:id="lbl5_3" alignment="CENTER" prefHeight="87.0" prefWidth="135.0">
+               <font>
+                  <Font size="18.0" />
+               </font></Label>
+            <Label fx:id="lbl5_4" alignment="CENTER" prefHeight="87.0" prefWidth="135.0">
+               <font>
+                  <Font size="18.0" />
+               </font></Label>
+            <Label fx:id="lbl5_5" alignment="CENTER" prefHeight="87.0" prefWidth="135.0">
+               <font>
+                  <Font size="18.0" />
+               </font></Label>
+            <Label fx:id="lbl5_6" alignment="CENTER" prefHeight="87.0" prefWidth="135.0">
+               <font>
+                  <Font size="18.0" />
+               </font></Label>
+         </children>
+      </HBox>
+      <ImageView fitHeight="116.0" fitWidth="123.0" layoutX="14.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/3d-movie.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="110.0" fitWidth="116.0" layoutX="715.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/puzzle.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="660.0" fitWidth="850.0" layoutX="1.0" layoutY="-4.0" mouseTransparent="true" opacity="0.2" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/background.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
